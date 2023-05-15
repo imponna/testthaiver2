@@ -4850,7 +4850,7 @@ Main:Dropdown("เลือกฟามมอน", tableMon, function(vu)
  SelectMonster = vu
  end)
 
-Main:Toggle("Farm Selected Monster",_G.AutoFarmSelectMonster,function(vu)
+Main:Toggle("ฟามมอน",_G.AutoFarmSelectMonster,function(vu)
  _G.AutoFarmSelectMonster = vu
 end)
 
