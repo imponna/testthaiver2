@@ -4708,7 +4708,7 @@ if v:IsA("Tool") then
 table.insert(WeaponList ,v.Name)
 end
 end
-local SelectWeapona = Main:Dropdown("Select Weapon",WeaponList,function(value)
+local SelectWeapona = Main:Dropdown("เลือกอาวุธ",WeaponList,function(value)
  _G.Select_Weapon = value
  end)
 
