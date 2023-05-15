@@ -1,3 +1,14 @@
+function CR ()
+
+ require(game:GetService("ReplicatedStorage").Notification).new("แปลไทยโดย Dc MetteoPBH#5757 !"):Display();
+
+ wait()
+
+ setthreadcontext(5)
+
+end
+
+CR()
 local openshit = Instance.new("ScreenGui")
 local mainopen = Instance.new("TextButton")
 local mainopens = Instance.new("UICorner")
