@@ -328,7 +328,7 @@ mainopens.Parent = mainopen
  Hub.Position = UDim2.new(0, 110, 0, 0)
  Hub.Size = UDim2.new(0, 81, 0, 27)
  Hub.Font = Enum.Font.Code
- Hub.Text = "| BEST BLOX FRUIT SCRIPT |"
+ Hub.Text = "| BEST BLOX FRUIT SCRIPT แปลไทยโดย MetteoPBH#5757 |"
  Hub.TextColor3 = Color3.fromRGB(153,0,0)
  Hub.TextSize = 16.000
  Hub.TextXAlignment = Enum.TextXAlignment.Left
@@ -11351,14 +11351,3 @@ spawn(function()
     end
 end)
 
-function CR ()
-
- require(game:GetService("ReplicatedStorage").Notification).new("แปลไทยโดย Dc MetteoPBH#5757 !"):Display();
-
- wait()
-
- setthreadcontext(5)
-
-end
-
-CR()
